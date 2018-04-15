@@ -21,7 +21,7 @@ int main (void)
     {
         if (name[i] == ' ')
         {
-            //prints first letter after a space
+            //prints first letter after a space in upper case
             printf("%c", toupper(name[i + 1]));
         }
     }
