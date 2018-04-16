@@ -12,10 +12,9 @@ int main(int argc, string argv[])
     //check if the user do not enter key
     if (argc != 2)
     {
-        printf("Usage: ./caesar k");
+        printf("Usage: ./caesar k\n");
         return 1;
     }
-
     //atoi converts string (key in this case) to integer
     int key = atoi(argv[1]);
 
