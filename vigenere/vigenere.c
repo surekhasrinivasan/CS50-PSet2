@@ -20,10 +20,10 @@ int main(int argc, string argv[])
     string keyword = argv[1];
 
     //get the length of the keyword
-    int key = strlen(argv[1]);
+    int key_len = strlen(keyword);
 
     //check if the user enters only alphabets for keyword
-    for (int i = 0; i < key; i++)
+    for (int i = 0; i < key_len; i++)
     {
         if (!isalpha(keyword[i]))
         {
@@ -57,7 +57,7 @@ int main(int argc, string argv[])
                 printf("%c", (plainText[i] - 'a' + tolower(keyword[key_count]) - 'a') % 26 + 'a');
             }
             //Using modulo for wraparound the index of the keyword
-            key_count = (key_count + 1) % key;
+            key_count = (key_count + 1) % key_len;
         }
         else
         {
