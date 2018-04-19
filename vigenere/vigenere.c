@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//SC: Your code looks good but you should try commenting a little less its actually making it harder for me to read.
 int main(int argc, string argv[])
 {
     //check if the user do not enter keyword

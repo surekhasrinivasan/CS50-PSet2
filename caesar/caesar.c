@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//SC: this code looks good. Only thing I can say, is that you probably don't need to comment every line of code.
 int main(int argc, string argv[])
 {
     //check if the user do not enter key

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
+//SC: This code looks good.
 int main(void)
 {
     //prompt the user for his/her full name with space in between first middle and last name
